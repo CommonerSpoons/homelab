@@ -19,6 +19,7 @@
       with pkgs;
       {
         devShells.default = mkShell {
+LC_ALL="C.UTF-8";
           packages = [
             ansible
             ansible-lint
